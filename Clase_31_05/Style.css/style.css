@@ -1,0 +1,89 @@
+
+
+* {
+    margin: 0;
+}
+
+body {
+    background-image:url(https://w.forfun.com/fetch/4f/4f449b1461062903d6b0e55a4827957d.jpeg) ;
+}
+main {
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray {
+    background-color: #4B4B4B;
+    border-radius: 50%;
+    border: 2px black solid;
+    font-size: 40px;
+    font-family: 'Geologica', sans-serif;
+    color: white;
+}
+
+.orange {
+    background-color: palevioletred;
+    border-radius: 50%;
+    border: 2px black solid;
+    font-size: 40px;
+    font-family: 'Geologica', sans-serif;
+}
+
+.white {
+    border-radius: 50%;
+    border: 2px black solid;
+    font-size: 40px;
+    font-family: 'Geologica', sans-serif;
+}
+
+form {
+    width: 18vw;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px #4B4B4B solid;
+    border-radius: 10px;
+}
+
+input {
+    width: 25%;
+    height: 85%;
+    margin: 2%;
+}
+
+.idk {
+    height: 200%;
+    width: 90%;
+    text-align: right;
+    border: 2px black solid;
+    background-color: black;
+    font-size: 90px;
+    color: white;
+    margin-bottom: 5px;
+    font-family: 'Geologica', sans-serif;
+    
+}  
+
+.number {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
